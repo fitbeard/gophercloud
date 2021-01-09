@@ -225,6 +225,7 @@ func TestGetImage(t *testing.T) {
 
 		Protected:  false,
 		Visibility: images.ImageVisibilityPublic,
+		Hidden:     false,
 
 		Checksum:    checksum,
 		SizeBytes:   sizeBytes,
@@ -385,6 +386,7 @@ func TestImageListByTags(t *testing.T) {
 
 		Protected:  false,
 		Visibility: images.ImageVisibilityPublic,
+		Hidden:     false,
 
 		Checksum:    checksum,
 		SizeBytes:   sizeBytes,
